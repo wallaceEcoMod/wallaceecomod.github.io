@@ -1,0 +1,8 @@
+---
+layout: default
+img: flexible.jpeg
+category: Services
+title: Flexible
+description: |
+---
+*Wallace* features multiple options for user uploads and downloads of results.
