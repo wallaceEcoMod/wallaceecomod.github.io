@@ -45,7 +45,7 @@
             <a class="navbar-brand page-scroll" href="#home">Wallace Ecological Modeling App</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
             	<li>
                     <a class="page-scroll" href="#about">About</a>
@@ -70,11 +70,12 @@
 				<div class="col-lg-12">
 					<div class="intro-message">
 						<h1>Wallace</h1>
-						<h3>a flexible platform for reproducible modeling of species niches/distributions</h3>
+						<h3>a flexible platform for reproducible modeling of species niches and distributions</h3>
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
 						<li>
-							<a href="https://github.com/wallaceEcoMod/wallace" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+              <a href="https://cran.r-project.org/web/packages/wallace/index.html" class="btn btn-default btn-lg"><i class="fa fa-code fa-fw"></i> <span class="network-name">CRAN</span></a>
+              <a href="https://github.com/wallaceEcoMod/wallace" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
               <a href="mailto:wallaceEcoMod@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
               <a href="https://groups.google.com/forum/#!forum/wallaceecomod" class="btn btn-default btn-lg"><i class="fa fa-group fa-fw"></i> <span class="network-name">Forum</span></a>
 						</li>
@@ -93,11 +94,25 @@
 		    <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-9 col-lg-offset-2">
+            <div class="col-lg-11 col-lg-offset-0">
               <br/><br/>
-              <h2>About <i>Wallace</i></h2>
-              <br/><p style="font-size:20px">
-                <i>Wallace</i> is a modular platform for reproducible modeling of species niches and distributions, written in R with the web app development package <span style="font-family:'Courier New">shiny</span>. The application guides users through a complete analysis, from the acquisition of data to visualizing model predictions on an interactive map, thus bundling complex workflows into a single, streamlined interface.</p>
+              <br/><p style="font-size:20px" align="left">
+                <i>Wallace</i> is a modular, R-based platform for reproducible modeling of species niches and distributions.
+                The application guides users through a complete analysis, from the acquisition of data to visualizing model
+                predictions on an interactive map, thus bundling complex workflows into a single, streamlined interface.</p>
+                  <p style="font-size:20px" align="left">
+                <i>Wallace</i> is <b>open</b>: the code is free to use and modify (GPL 3.0), and it gives users access to
+                some of the largest public online biodiversity databases. The application is <b>expandible</b>, as users
+                can author and contribute modules that enable new methodogical options. There are <b>flexible</b> options
+                for user uploads and downloads of results. The session is <b>interactive</b>, with an embedded
+                zoomable map, sortable tables, and assorted visualizations of results. <i>Wallace</i> is instructive,
+                with guidance text throughout that educates users about theoretical and analytical aspects of each
+                step in the workflow. Lastly, it is <b>reproducible</b>, as users can download an R Markdown file
+                that reruns the analysis.</p>
+                  <p style="font-size:20px" align="left">
+                <i>Wallace</i> is written using the web app development R package <span style="font-family:'Courier New">shiny</span>.
+                Development requests or contributions should be directed to either the Github repo or the Google Group forum
+                (links above).</p>
                 <br/>
               </div>
         </div>
@@ -106,165 +121,6 @@
 		<section id="services">
 <!-- Page Content -->
 
-  
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Open Source</h2>
-                    <div class="lead"><p><em>Wallace</em>’s code is free to use and modify (GPL 3.0), and it gives users access to some of the largest public online biodiversity databases.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/open.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    
-
-  
-    
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Expandible</h2>
-                    <div class="lead"><p><em>Wallace</em> is a modular application, where each module is a methodological option in the analysis. Users can author and contribute their own modules.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/expandible.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    
-
-  
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Flexible</h2>
-                    <div class="lead"><p><em>Wallace</em> features multiple options for user uploads and downloads of results.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/flexible.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    
-
-  
-    
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Interactive</h2>
-                    <div class="lead"><p>The user experience features a pannable/zoomable map, sortable tables, and many different visualizations of results.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/interactive.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    
-
-  
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Instructive</h2>
-                    <div class="lead"><p>Guidance text for both components and modules educates users about the theoretical and methodological aspects of the analysis.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/instructive.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    
-
-  
-    
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Reproducible</h2>
-                    <div class="lead"><p>The code for the user session can be downloaded as an R Markdown file that can be run like a script to reproduce the analysis. This code can also be downloaded as PDF, HTML, or Microsoft Word file.</p>
-</div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/reproducible.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    
-
 </section>
 
 		<!-- Footer -->
@@ -272,7 +128,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <p class="copyright text-muted small">Copyright &copy; 2015 Your Name. All Rights Reserved.</p>
+                <p class="copyright text-muted small">Copyright &copy; 2017 Jamie M. Kass. All Rights Reserved.</p>
             </div>
             <div class="col-md-4">
                 Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.
