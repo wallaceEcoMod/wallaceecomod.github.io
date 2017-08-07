@@ -9,7 +9,7 @@ description: |
 
 <a href="https://www.researchgate.net/profile/Bruno_Vilela3" target="_blank">Bruno Vilela</a> (co-developer) is a post-doctoral researcher at Washington University in St. Louis.
 
-<a href="https://www.researchgate.net/profile/Matthew_Aiello-Lammens" target="_blank">Matthew Aiello-Lammens</a> (co-developer) is Assistant Professor of Biology at Pace University.
+<a href="https://www.researchgate.net/profile/Matthew_Aiello-Lammens" target="_blank">Matthew Aiello-Lammens</a> (co-developer) is Assistant Professor of Environmental Studies and Science at Pace University.
 
 <a href="https://www.researchgate.net/profile/Robert_Muscarella" target="_blank">Robert Muscarella</a> (co-developer) is a National Science Foundation post-doctoral fellow at Aarhus University in Denmark.
 
