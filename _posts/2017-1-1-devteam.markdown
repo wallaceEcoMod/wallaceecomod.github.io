@@ -13,6 +13,6 @@ description: |
 
 <a href="https://www.researchgate.net/profile/Robert_Muscarella" target="_blank">Robert Muscarella</a> (co-developer) is a National Science Foundation post-doctoral fellow at Aarhus University in Denmark.
 
-<a href="http://www.andersonlab.ccny.cuny.edu/" target="_blank">Robert P. Anderson</a> (co-developer) is Professor of Biology at City College of New York, CUNY.
+<a href="https://www.researchgate.net/profile/Cory_Merow2" target="_blank">Cory Merow</a> (co-developer) is a Research Scientist at Yale University (photo not shown).
 
-Current proposals under review for further funding for *Wallace* include Drs. Cory Merow (Yale University) and Mary Blair (American Museum of Natural History).
+<a href="http://www.andersonlab.ccny.cuny.edu/" target="_blank">Robert P. Anderson</a> (co-developer) is Professor of Biology at City College of New York, CUNY.
