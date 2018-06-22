@@ -21,6 +21,23 @@ h6 {
     font-weight: 200;
 }
 
+#devteam {
+    position: relative;
+    overflow: hidden;
+}
+
+.member {
+    height: 375px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.member img {
+    height: 250px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
