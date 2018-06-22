@@ -1,35 +1,11 @@
-# Landing Page Jekyll theme
+# Wallace Ecological Modeling App Webpage
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+This is the repo for the *Wallace* Ecological Modeling Application webpage, which is a Github Pages site running Jekyll.
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+## How to do real-time editing of the webpage
 
-```txt
----
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
-```
+In Terminal, run:
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+`bundle exec jekyll serve`
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
-
-===
-
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
-
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
-
-## Version
-1.0.1
+and then open your browser and go to the URL that it prints to the console under "Server address". Now, whenever you make changes to the HTML, etc., you can refresh this page to see your changes implemented.
