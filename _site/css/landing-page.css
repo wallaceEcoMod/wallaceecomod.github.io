@@ -27,19 +27,15 @@ h6 {
 }
 
 .member {
-    float: left;
-    width: 31%;
-    margin: 1% 1% 45px 1%;
+    height: 375px;
 }
 
 .name {
-    
-    bottom: 0px;
+    margin-top: 10px;
 }
 
 .member img {
-    width: 50%;
-    display: block;
+    height: 250px;
 }
 
 .lead {
