@@ -1,3 +1,18 @@
+# Basic Jekyll ignores
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler ignore
+/vendor
+.bundle/
+
+# GitHub Pages specific ignore
+# GitHub Pages uses its own version of the github-pages gem,
+# so Gemfile.lock is not needed and can cause conflicts.
+Gemfile.lock
+
 .Rproj.user
 .Rhistory
 .RData

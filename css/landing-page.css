@@ -194,6 +194,34 @@ p.copyright {
   margin: 15px 0 0;
 }
 
+/* Downloads */
+
+/* Container for the badge area */
+.dlbadge-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.dlbadge-label {
+    display: block;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.dlbadge-img {
+    height: 25px;
+    transition: transform 0.2s ease;
+}
+
+.dlbadge-img:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
 .badges {
   display: flex; /* Arrange badges horizontally */
   flex-wrap: wrap; /* Badges wrap to the next line if needed */
